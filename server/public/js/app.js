@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
-import Posts from './containers/Posts'
+import Posts from './components/containers/Posts'
 
 class App extends Component {
     constructor() {

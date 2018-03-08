@@ -5,7 +5,7 @@
   "main": "",
   "scripts": {
     "test": "webpack -w",
-    "build-dev": "go-bindata-assetfs dist/server/web/... && mv bindata.go dist/server/ && webpack -w --mode development",
+    "build-dev": "go-bindata-assetfs server/public/... && mv bindata.go server/ && webpack -w --mode development",
     "local-run": "go run server/*.go"
   },
   "author": "jimmyfargo",

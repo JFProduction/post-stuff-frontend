@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { config, APIManager } from '../utils'
+import { config, APIManager } from '../../utils'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 import RaisedButton from 'material-ui/RaisedButton'
 
