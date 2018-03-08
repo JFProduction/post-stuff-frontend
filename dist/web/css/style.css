@@ -1,0 +1,12 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-wrapper {
+    width: 922px;
+    margin: 0 auto;
+}
+
+.inner {
+    margin-top: 150px;
+}

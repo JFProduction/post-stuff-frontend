@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
+import Posts from './containers/Posts'
 
 class App extends Component {
     constructor() {
@@ -8,7 +9,12 @@ class App extends Component {
 
     render() {
         return (
-            <div>Hello, World!</div>
+            <div className="main-wrapper">
+                <div className="inner">
+                    Hello, World!
+                    <Posts />
+                </div>
+            </div>
         )
     }
 }
